@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Page</title>
+    <link rel="stylesheet" href="style2.css">
+    <script src="register.js"></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>Register</h1>
+      <form action="Home.Html"  onsubmit="return validation()" >
+        <div class="username">
+          <label for="username">Username</label><br>
+          <input type="text" id="username" placeholder="Username"><br>
+        </div>
+        <div class="password">
+          <label for="password">Password</label><br>
+          <input type="password" id="password" placeholder="Password"><br>
+        </div>
+        <div class="confirmPass">
+          <label for="confirmPass">Confirm Password</label><br>
+          <input type="password" id="confirmPass" placeholder="Confirm Password"><br>
+        </div>
+        <div class="fullname">
+          <label for="fullname">Full Name</label><br>
+          <input type="text" id="fullname" placeholder="Full name"><br>
+        </div>
+        <div class="gender">
+          <label for="gender">Gender</label><br>
+          <label><input type="radio" name="gender" value="male">Male</label><br>
+          <label><input type="radio" name="gender" value="female">Female</label>
+        </div>
+        <div class="email">
+          <label for="email">Email</label><br>
+          <input type="text" id="email"  placeholder="Email"><br>
+        </div>
+        <div class="age">
+          <label for="age">Age</label><br>
+          <input type="number" id="age" placeholder="Age"><br>
+        </div>
+        <label><input type="checkbox">I agree with terms and conditions</label><br>
+        <button type="submit">Register</button>
+        <p>Already have an account? <a href="login.html">Login</a>
+        </p>
+
+      </form>
+    </div>
+
+    
+  </body>
+</html>
